@@ -10,7 +10,7 @@ In order to use this library you will need to have the `uleds` module installed 
 
 or by loading `uleds` on boot:
 
-    # echo udev > /etc/modules-load.d/uleds.conf
+    # echo uleds > /etc/modules-load.d/uleds.conf
 
 If you wish to create and read `uleds` devices as a regular user it is recommended to install the [99-uleds.rules](/99-uleds.rules) file and add yourself to the `uleds` group (create it if it doesn't exist already).
 
