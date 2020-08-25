@@ -1,0 +1,1 @@
+KERNEL=="uleds", OWNER="root", GROUP="uleds", MODE="0660"
