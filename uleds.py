@@ -24,6 +24,7 @@ class uled:
             self._uleds_sys = os.path.join(ULEDS_SYS_PATH, self._struct.name.decode())
         except Exception as e:
             print(f"Failed to initialise uleds device: {e}")
+            print(f'Ensure that the `uleds` kernel module is loaded and you have r/w access to {ULEDS_DEVICE}.')
             self._uleds = None
             self._uleds_sys = None
 
